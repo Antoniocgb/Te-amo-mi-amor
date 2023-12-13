@@ -1,0 +1,75 @@
+body{
+    margin:0;
+}
+html {
+    background-color: #efefef;
+    font-family: 'Dosis', sans-serif;
+}
+
+header {
+    background-color: rgb(78, 121, 202);
+    color: rgb(255, 255, 255);
+    margin:auto;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Silkscreen', sans-serif;
+}
+header h1{
+    font-size: 50px;
+}
+article{
+    margin:25px 75px;
+}
+
+.oso{
+    width: 400px;
+    margin: 0 auto;
+}
+article h2{
+    color: rgb(27, 25, 25);
+}
+footer{
+    margin: 0 auto 50px;
+    display: flex;
+    width: 1200px;
+    height: 860x;    
+}
+
+.media{
+    margin:0 AUTO;
+
+    text-align: center;
+}
+
+footer img{
+    width: 0px;
+    flex-grow:1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 1s ease;
+}
+footer img:hover{
+    width: 600px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.bajo{
+    margin: 0 auto 50px;
+    display: flex;
+    width: 1200px;
+    height: 860x;    
+}
+
+.bajo img{
+    width: 0px;
+    flex-grow:1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 1s ease;
+}
+.bajo img:hover{
+    width: 600px;
+    opacity: 1;
+    filter: contrast(120%);
+}
